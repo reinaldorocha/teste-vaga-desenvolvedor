@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en" >
+  <head>
+    <meta charset="UTF-8">
+    <title>QUESTAO 6</title>  
+    <link rel="stylesheet" href="style.css">
+  </head>
+  
+  <body>
+    <div id="app" class="container">
+      <h2>Digite o CEP</h2>
+      <div class="form">
+        <input onclick="this.value=''" type="text" v-model="cep" maxlength="8" placeholder="ex: 56302000" />
+      </div>
+      <div class="error">{{error}}</div>
+      <div class="display">{{city}}</div>
+    </div>
+
+    <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js'></script>
+    <script src='https://cdnjs.cloudflare.com/ajax/libs/vue/2.1.10/vue.min.js'></script>
+    <script  src="./script.js"></script>
+  </body>
+</html>

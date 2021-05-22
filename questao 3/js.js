@@ -1,0 +1,1 @@
+function desabilitaBotao(){document.getElementById("btn").disabled = true;}

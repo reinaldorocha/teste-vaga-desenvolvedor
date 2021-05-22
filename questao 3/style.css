@@ -1,0 +1,24 @@
+body {
+  position: relative;
+  background: #f1f1f1;
+  font-family: "Arial";
+  overflow: hidden;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  height: 100vh;
+}
+.container > * {
+  margin: 5px;
+}
+
+button{
+  background-color: white;  
+  font-size:30px;
+  text-align: center;  
+}
+

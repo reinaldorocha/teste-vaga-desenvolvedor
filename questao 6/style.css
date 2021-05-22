@@ -1,0 +1,56 @@
+body {
+  position: relative;
+  background: #f1f1f1;
+  font-family: "Arial";
+  overflow: hidden;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  height: 100vh;
+}
+.container > * {
+  margin: 5px;
+}
+
+h2 {
+  color: #999EEE;
+}
+
+.form {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 22px;
+  maxlength: 8;
+}
+.form > * {
+  margin: 10px;
+}
+
+.display {
+  color: black;
+  font-size: 28px;
+  letter-spacing: 1px;
+}
+
+input {
+  width: 150px;
+  height: 30px;
+  border: none;
+  outline: none;
+  color: black;
+  font-size: 20px;
+  text-align: center;
+  padding-left: 10px;
+  box-shadow: 0 3px 0 rgba(102, 106, 170, 0.5);
+}
+
+.error {
+  font-size: 12px;
+  letter-spacing: 1px;
+}
+
